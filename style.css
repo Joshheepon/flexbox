@@ -1,0 +1,176 @@
+/*General CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: Arial, Calibri;
+
+}
+nav {
+	background-color: #A9AA39;
+
+}
+nav #nav-list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background-color 0.3s, padding 0.8s linear;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+nav ul li:hover {
+	background-color: black;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#main {
+	background: linear-gradient(to top, rgba(168, 255, 120,0.5), rgba(120, 255, 214, 1)), url(bg2.jpg);
+	min-height: 500px;
+	margin-top: 0px;
+	background-size: cover;
+	padding-top: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-bottom: 80px;
+
+}
+
+#main h1 {
+	margin:0px;
+	text-align: center;
+	font-size: 2.5rem;
+	
+}
+
+#main p{
+	width: 50%;
+	text-align: center;
+}
+
+#testimonials{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	align-content: stretch;
+
+}
+
+.customer{
+	border: 2px solid black;
+	border-radius: 110px;
+	margin-right: 20px;
+	box-shadow: 5px 10px 8px;
+	margin: 30px;	
+	transition: transform 0.3s;
+
+}
+
+.customer:hover{
+	box-shadow: 0px 0px 25px;
+
+}
+
+#showcase{
+	display: flex;
+	align-content: stretch;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-between;
+
+
+}
+
+.cards{
+	max-width: 275px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	box-shadow: 0px 0px 15px;
+}
+
+.cards .card-img{
+	height: 200px;
+	width: 100%;
+		
+
+
+}
+
+.cards .card-img img{
+	padding: 10px;
+	height: 100%;
+	width: 250px;
+	min-width: 249px;
+	max-width: 250px;
+
+
+
+}
+
+.cards:hover{
+	background-color: cyan;
+
+
+}
+.cards .button {
+	margin: 10px;	
+}
+.cards .button a {
+	padding:10px
+	color: black;
+	background-color: gray;
+}
+
+
+footer{
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer a{
+	padding: 20px;
+}
+
+#media-icons ul{
+	display: flex;
+	list-style-type: none;
+	padding: 20px;
+}
+
+
+
+
+/*for responsive web design*/
+@media screen and (min-width: 700px){
+	nav ul {
+		text-align: left;
+	}
+	nav ul li{
+		display: inline-block;
+		border: 0px;
+		text-align: left;
+	}
+
+
